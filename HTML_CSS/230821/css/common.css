@@ -1,0 +1,55 @@
+body,
+h1,
+h2,
+h3,
+p,
+button{
+    margin: 0;
+    padding: 0;
+}
+
+/* main -------------------------------- */
+.login{
+    width: 400px;
+    /* background-color: skyblue; */
+    margin: auto;
+}
+.main-title{
+    font-size: 24px;
+    text-align: center;
+}
+.main-desc{
+    color: #767676;
+    margin: 10px 0 32px;
+    text-align: center;
+}
+/* 컨테이너 1 */
+.main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* 컨테이너 2 */
+.flex-input div{
+    display: flex;
+    align-items: center;
+}
+
+.flex-input div label{
+    width: 80px;
+}
+.flex-input div input{
+    height: 28px;
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.login-btn{
+    background-color: royalblue;
+    border: 0;
+    border-radius: 4px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+}
