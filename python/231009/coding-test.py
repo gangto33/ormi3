@@ -1,4 +1,4 @@
-# 코딩테스트 연습 - 연습문제 - 할인 행사 
+# 코딩테스트 연습 - 연습문제 - 할인 행사
 
 def solution(want, number, discount):
     answer = 0
